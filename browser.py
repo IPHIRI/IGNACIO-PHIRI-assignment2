@@ -6,7 +6,7 @@ class Browser(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowIcon(QIcon("assets/ignacio.jpg"))  
+        self.setWindowIcon(QIcon("ignacio.jpg"))  
         self.setWindowTitle("Ignacio's search engine")
         self.setGeometry(100, 100, 600, 400)
         
